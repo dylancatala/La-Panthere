@@ -7,6 +7,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.col-sm-4 {
+  font-size: 16px;
+}
+
+.col-sm-4 > ul > li {
+  padding-top: 10px;
+}
+
 a,
 button {
   transition: all 0.3s ease-in-out;
@@ -314,7 +322,7 @@ a:hover {
 }
 
 .navbar-brand img {
-  max-height: 200px;
+  width: 300px;
   margin: 0 5px 0 0;
   display: inline;
 }
@@ -691,7 +699,7 @@ a {
 }
 
 p {
-  font-size: 11px;
+  font-size: 16px;
 }
 
 .tight-width-whitespace {
@@ -794,7 +802,7 @@ h4 {
 
 .btn-atomic-tangerine {
   background: #f3976c;
-  color: #ffffff !important;
+  color: black !important;
 }
 
 .btn-atomic-tangerine:hover {
