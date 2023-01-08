@@ -76,10 +76,10 @@
         <div class="container bloc-lg">
           <div class="row">
             <div class="col-sm-12">
-              <h1 class="text-center hero-bloc-text tc-white">
+              <h1 class="text-center hero-bloc-text tc-black">
                 Parlons web design !
               </h1>
-              <p class="text-center mg-lg tc-white tight-width-whitespace">
+              <p class="text-center mg-lg tc-black tight-width-whitespace">
                 Nous sommes ravis que vous souhaitiez collaborer avec notre
                 agence.<br />
                 Parlez-nous de votre projet en complétant le formulaire
@@ -96,7 +96,7 @@
         <div class="container bloc-lg">
           <div class="row">
             <div class="col-sm-6">
-              <form
+              <!-- <form
                 id="form_1"
                 novalidate
                 success-msg="Your message has been sent."
@@ -124,7 +124,25 @@
                     cols="50"
                     required
                   ></textarea>
-                </div>
+                </div> -->
+                <form action="contact.html">
+                  <div>
+                    <label for="nameinput">Nom:</label>
+                    <input type="text" name="firstname" id="nameinput" required />
+                  </div>
+                  <div>
+                    <label for="emailinput">Adresse email:</label>
+                    <input type="text" name="email" id="emailinput" required />
+                  </div>
+                  <div>
+                    <label for="knowusinput">Comment nous avez-vous connu ?</label>
+                    <input type="text" name="text" id="knowusinput"/>
+                  </div>
+                  <label for="message"
+                    >Brief de votre projet (Ajoutez autant de détails que nécessaire)</label
+                  >
+                  <textarea name="message" id="message" cols="50" rows="4" required></textarea>
+                </form>
                 <button
                   class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine"
                   type="submit"
