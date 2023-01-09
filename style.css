@@ -60,10 +60,15 @@ a:hover {
 }
 .review-name {
   font-size: 18px;
+  color: rgb(97, 63, 1);
 }
 
 .tc-white {
   color: white !important;
+}
+
+.form {
+  padding-bottom: 15px;
 }
 
 #page-loading-blocs-notifaction {
@@ -525,7 +530,7 @@ button {
 }
 
 .icon-md {
-  font-size: 30px !important;
+  font-size: 40px !important;
 }
 
 .icon-lg {
@@ -751,7 +756,7 @@ p {
 
 .social {
   max-width: 400px;
-  margin: auto auto auto auto;
+  margin: auto;
 }
 
 h2 {
