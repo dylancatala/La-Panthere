@@ -69,7 +69,9 @@ a:hover {
 
 .form {
   padding-bottom: 15px;
+  font-size: 16px;
 }
+
 
 #page-loading-blocs-notifaction {
   position: fixed;
