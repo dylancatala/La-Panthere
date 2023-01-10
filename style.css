@@ -74,9 +74,10 @@ a:hover {
   padding-bottom: 15px;
   font-size: 16px;
 }
-.form-control {
-  border-color: rgba(0, 0, 0, .2);
-}
+ input, textarea {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 2px;
+ }
 
 
 #page-loading-blocs-notifaction {
