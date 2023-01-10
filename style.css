@@ -74,7 +74,9 @@ a:hover {
   padding-bottom: 15px;
   font-size: 16px;
 }
-
+.form-control {
+  border-color: rgba(0, 0, 0, .5);
+}
 
 
 #page-loading-blocs-notifaction {
