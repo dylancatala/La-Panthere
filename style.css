@@ -80,6 +80,10 @@ a:hover {
   color: black;
  }
 
+ label {
+  font-weight: 400;
+ }
+
 
 #page-loading-blocs-notifaction {
   position: fixed;
